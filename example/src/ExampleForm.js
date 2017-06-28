@@ -51,15 +51,13 @@ const ExampleForm = ({ handleSubmit }) => {
             label="Quantidade"
             description="Quantidade disponível em estoque."
             component={ InputField }
-
           />
           <FieldWrapper
             name="startDate"
             label="Data inicio"
-            description="Produto disponível a partir data."
+            description="Produto disponível a partir desta data."
             component={ InputField }
             type="date"
-
           />
           <FieldWrapper
             name="endDate"
@@ -75,7 +73,6 @@ const ExampleForm = ({ handleSubmit }) => {
             description="Iniciar vendas antes da data de inicio."
             component={ InputField }
             type="checkbox"
-
           />
         </fieldset>
         <FieldWrapper
