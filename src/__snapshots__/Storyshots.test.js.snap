@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Text input default 1`] = `
+<input
+  className="sc-bwzfXH iytRES"
+  value="Hello"
+/>
+`;
+
+exports[`Storyshots Text input multiple lines 1`] = `
+<textarea
+  className="sc-bdVaJa iuNbAd"
+  value="Hello World"
+/>
+`;
