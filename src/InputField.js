@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 const TextArea = styled.textarea`
@@ -14,5 +15,9 @@ const Input = styled.input`
 const InputField = ({ rows, ...props }) => rows
   ? <TextArea { ...props } />
   : <Input { ...props } />
+
+InputField.propTypes = {
+  rows: PropTypes.number,
+}
 
 export default InputField
